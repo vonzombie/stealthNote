@@ -1,0 +1,10 @@
+/* the .ng-valid and .ng-invalid is for the 'required' in the input see the .html */
+
+.ng-valid[required],
+.ng-valid.required {
+    border-left: 5px solid green;
+}
+
+.ng-invalid:not(form).ng-touched {
+    border-left: 5px solid red;
+}
